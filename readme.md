@@ -4,7 +4,7 @@ First of all, it is a recommended practice to use a virtual environment to isola
 
 #### Windows:
 
-``bash
+```bash
 # Create a new virtual environment in the 'myproject_env' folder
 python -m venv myproject_env
 
@@ -14,7 +14,7 @@ myproject_env\Scriptsactivate
 
 #### macOS/Linux:
 
-``bash
+```bash
 # Create a new virtual environment in the 'myproject_env' folder
 python3 -m venv myproject_env
 
