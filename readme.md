@@ -76,7 +76,7 @@ Follow the instructions to create a username, email address, and password for th
 
 Finally, start the development server to check that everything is configured correctly:
 
-``bash
+```bash
 python manage.py runserver
 ```
 
