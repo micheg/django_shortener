@@ -81,6 +81,3 @@ python manage.py runserver
 ```
 
 You can now access your Django project at ``http://127.0.0.1:8000/` and the administration interface at ``http://127.0.0.1:8000/admin/`.
-
-
-Translated with DeepL.com (free version)
