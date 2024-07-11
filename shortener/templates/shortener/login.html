@@ -1,0 +1,18 @@
+{% extends 'shortener/base.html' %}
+
+{% block content %}
+    <h2>Login</h2>
+    <form method="post">
+        {% csrf_token %}
+        <p><label for="username">Username:</label> <input type="text" name="username" required></p>
+        <p><label for="password">Password:</label> <input type="password" name="password" required></p>
+        <button type="submit">Login</button>
+    </form>
+    <hr/>
+    <div>
+        If you don't have an account, <a href="/register">register here.</a>
+    </div>
+    {% if error %}
+    <p>{{ error }}</p>
+    {% endif %}
+{% endblock %}
